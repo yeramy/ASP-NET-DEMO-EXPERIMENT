@@ -1,4 +1,4 @@
-﻿@model VocabViewModel
+﻿@model List<VocabViewModel>
 
 
 @*
@@ -8,5 +8,17 @@
 }
 <h1>Vocab List</h1>
 <p>Vocabulary list of mine</p>
-<h4>The WORD is @Model.Word</h4>
-<h4>Definition  is @Model.Definition</h4>
+<table>
+    <tr>
+        <th>Word</th>
+        <th>Defintion</th>
+    </tr>
+    @foreach(var vocab in Model)
+    {
+        <tr>
+            <td>@vocab.Word</td>
+            <td>@vocab.Definition</td>
+        </tr>
+    }
+</table>
+    

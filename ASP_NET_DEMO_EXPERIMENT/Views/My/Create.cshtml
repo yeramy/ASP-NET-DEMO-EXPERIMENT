@@ -1,0 +1,44 @@
+﻿@model VocabViewModel
+
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<h1>Create new vocab word</h1>
+<div calss="row">
+    <div class="col-6">
+        <div class="card">   
+
+            <div class="card-header">
+                <h4>New Entry</h4>
+            </div>
+
+            <div class="card-body">
+                <form asp-controller="My" asp-action="CreateVocab" method="post">
+                    <div class="mb-3">
+                        <label class="form-label">Word</label>
+                        <input asp-for=Word type="text" class="form-control" />
+                    </div>
+
+                    <div class="mb-3"> 
+                        <label class="form-label">Defintion</label>
+                        <input asp-for=Definition type="text" class="form-control" />
+                    </div>
+
+                    <div class="mb-3">
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                </form>
+            </div>
+
+            <div class="card-footer">
+
+            </div>
+
+        </div>
+        
+    </div>
+</div>
+<p></p>

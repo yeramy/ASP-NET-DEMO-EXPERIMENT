@@ -5,10 +5,23 @@ namespace ASP_NET_DEMO_EXPERIMENT.Controllers
 {
     public class MyController : Controller
     {
+        private static List<VocabViewModel> vocabs = new List<VocabViewModel>();
         public IActionResult Index()
         {
-            VocabViewModel list = new VocabViewModel() {Word="SSD",Definition="Solid State Drive"};
-            return View(list);
+            return View(vocabs);
+        }
+
+        public IActionResult Create()
+        {
+            var vocabVm = new VocabViewModel();
+            return View(vocabVm);
+        }
+
+        public IActionResult CreateVocab(VocabViewModel vocabViewModel)
+        {
+            //return View("Index");
+            vocabs.Add(vocabViewModel);
+            return RedirectToAction(nameof(Index));
         }
 
         public IActionResult showVocabList()
