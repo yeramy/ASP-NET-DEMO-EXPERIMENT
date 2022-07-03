@@ -1,0 +1,31 @@
+﻿@model List<VocabViewModel>
+
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<h1>Manage vocab list</h1>
+<div calss="row">
+    <div class="col-12">
+        <div class="card">   
+            <div class="card-body">
+                <table>
+                    <tr>
+                        <th>Word</th>
+                        <th>Defintion</th>
+                    </tr>
+                    @foreach(var vocab in Model)
+                    {
+                        <tr>
+                            <td>@vocab.Word</td>
+                            <td>@vocab.Definition</td>
+                        </tr>
+                    }
+                </table>
+            </div>
+        </div>
+        
+    </div>
+</div>
+<p></p>

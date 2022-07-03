@@ -17,9 +17,21 @@ namespace ASP_NET_DEMO_EXPERIMENT.Controllers
             return View(vocabVm);
         }
 
+        public IActionResult Manage()
+        {
+            return View(vocabs);
+        }
+
         public IActionResult CreateVocab(VocabViewModel vocabViewModel)
         {
             //return View("Index");
+            vocabs.Add(vocabViewModel);
+            return RedirectToAction(nameof(Index));
+        }
+
+        public IActionResult ManageVocab(VocabViewModel vocabViewModel)
+        {
+
             vocabs.Add(vocabViewModel);
             return RedirectToAction(nameof(Index));
         }
