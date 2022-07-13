@@ -17,6 +17,10 @@ namespace ASP_NET_DEMO_EXPERIMENT.Controllers
         {
             return View();
         }
+        public IActionResult ShowVocab()
+        {
+            return View();
+        }
 
         public IActionResult Privacy()
         {

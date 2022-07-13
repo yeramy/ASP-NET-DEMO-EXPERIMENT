@@ -15,12 +15,12 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Me\Dropbox\asp.net\ASP_NET_DEMO_EXPERIMENT\ASP_NET_DEMO_EXPERIMENT
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Me/Dropbox/asp.net/ASP_NET_DEMO_EXPERIMENT/ASP_NET_DEMO_EXPERIMENT/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/Me/Dropbox/asp.net/ASP_NET_DEMO_EXPERIMENT/ASP_NET_DEMO_EXPERIMENT/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Me/Dropbox/asp.net/ASP_NET_DEMO_EXPERIMENT/ASP_NET_DEMO_EXPERIMENT/Views/Home/ShowVocab.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaG93Vm9jYWIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Me/Dropbox/asp.net/ASP_NET_DEMO_EXPERIMENT/ASP_NET_DEMO_EXPERIMENT/Views/My/Create.cshtml]
@@ -41,6 +41,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Me/Dropbox/asp.net/ASP_NET_DEMO_EXPERIMENT/ASP_NET_DEMO_EXPERIMENT/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Me/Dropbox/asp.net/ASP_NET_DEMO_EXPERIMENT/ASP_NET_DEMO_EXPERIMENT/Views/Vocab/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVm9jYWJcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Me/Dropbox/asp.net/ASP_NET_DEMO_EXPERIMENT/ASP_NET_DEMO_EXPERIMENT/Views/_ViewImports.cshtml]
