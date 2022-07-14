@@ -23,18 +23,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaG93Vm9jYWIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Me/Dropbox/asp.net/ASP_NET_DEMO_EXPERIMENT/ASP_NET_DEMO_EXPERIMENT/Views/My/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTXlcQ3JlYXRlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Me/Dropbox/asp.net/ASP_NET_DEMO_EXPERIMENT/ASP_NET_DEMO_EXPERIMENT/Views/My/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTXlcSW5kZXguY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Me/Dropbox/asp.net/ASP_NET_DEMO_EXPERIMENT/ASP_NET_DEMO_EXPERIMENT/Views/My/Manage.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTXlcTWFuYWdlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/Me/Dropbox/asp.net/ASP_NET_DEMO_EXPERIMENT/ASP_NET_DEMO_EXPERIMENT/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -43,8 +31,24 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Me/Dropbox/asp.net/ASP_NET_DEMO_EXPERIMENT/ASP_NET_DEMO_EXPERIMENT/Views/Vocab/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVm9jYWJcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Me/Dropbox/asp.net/ASP_NET_DEMO_EXPERIMENT/ASP_NET_DEMO_EXPERIMENT/Views/Vocab/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVm9jYWJcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Me/Dropbox/asp.net/ASP_NET_DEMO_EXPERIMENT/ASP_NET_DEMO_EXPERIMENT/Views/Vocab/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVm9jYWJcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Me/Dropbox/asp.net/ASP_NET_DEMO_EXPERIMENT/ASP_NET_DEMO_EXPERIMENT/Views/Vocab/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVm9jYWJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Me/Dropbox/asp.net/ASP_NET_DEMO_EXPERIMENT/ASP_NET_DEMO_EXPERIMENT/Views/Vocab/Manage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVm9jYWJcTWFuYWdlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Me/Dropbox/asp.net/ASP_NET_DEMO_EXPERIMENT/ASP_NET_DEMO_EXPERIMENT/Views/_ViewImports.cshtml]
