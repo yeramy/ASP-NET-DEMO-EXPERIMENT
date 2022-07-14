@@ -54,5 +54,13 @@ namespace ASP_NET_DEMO_EXPERIMENT.Controllers
             vocab = vocabDAO.FetchAll();
             return View("Index", vocab);
         }
+
+        public IActionResult Delete(int id)
+        {
+            VocabDAO dao = new VocabDAO();
+            dao.Delete(id);
+            vocab = dao.FetchAll();
+            return View("Index", vocab);
+        }
     }
 }

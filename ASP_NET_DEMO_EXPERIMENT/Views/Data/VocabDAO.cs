@@ -109,5 +109,25 @@ namespace ASP_NET_DEMO_EXPERIMENT.Views.Data
             }
 
         }
+
+        public int Delete(int id)
+        {
+           
+            using (SqlConnection connetion = new SqlConnection(connectionString))
+            {
+                string sqlQuery = "DELETE FROM dbo.Vocabs WHERE Id = @Id";
+
+                SqlCommand command = new SqlCommand(sqlQuery, connetion);
+                connetion.Open();
+
+                command.Parameters.Add("@Id", System.Data.SqlDbType.VarChar, 1000).Value = id;
+
+                int deletedId = command.ExecuteNonQuery();
+
+                return deletedId;
+
+            }
+
+        }
     }
 }
